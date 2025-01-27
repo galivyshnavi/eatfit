@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0px;
+}
+
+.main {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .elements {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            margin-left: 60px;
+            a {
+                text-transform: capitalize;
+                font-size: 20px;
+                text-decoration: none;
+                color: black;
+            }
+
+        }
+
+        .icons {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            padding: 30px;
+
+            a {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .content {
+
+        border-bottom: 1px solid rgb(207, 14, 162);
+
+        .heading {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;   
+            border: 1px solid rgb(201, 16, 103);
+            padding: 10px;
+            border-bottom: 1px;
+            margin-top: 20px;
+
+            i {
+                font-size: 50px;
+                color: rgb(7, 7, 69)
+            }
+
+            h1 {
+                text-transform: capitalize;
+                font-size: 50px;
+
+            }
+
+        }
+        .heading2{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            border-bottom: 3px solid rgb(151, 17, 84);
+            justify-content: center;
+            padding: 20px;
+            border-top: 1px;
+            margin-top: 20px;
+            a{
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+
+            }
+            
+        }
+    }
+    .card_container{ 
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 15px;
+        text-align: center;
+        margin-top: 30px;
+        justify-content: center;
+        .card{
+
+
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 500px;
+            background-color: whitesmoke;
+            box-shadow: 10px 10px 20px rgba(156, 124, 124, 0.775);
+            img{
+                
+                width: 350px;
+                height: 300px;
+                border: 5px solid rgb(188, 19, 160);
+                border-radius: 100px;
+                padding: 10px;
+                margin-left: 10px;
+            }
+            h2{
+                text-transform: capitalize;
+                color: rgb(1, 1, 34);
+                font-size: 20px;
+                text-align: center;
+                padding: 10px;
+                color: rgb(8, 8, 89);
+            }
+
+            p{
+                text-transform: capitalize;
+                text-align: justify;
+                font-size: 15px;
+                padding: 5px 10px;
+                padding-bottom: 10px;
+            }
+            .date{
+                border-top: 3px solid rgb(179, 12, 160);
+                padding: 10px;
+                color: rgb(160, 111, 152);
+            }
+            
+
+        }   
+
+
+    }
+    .footer{
+        background-color: rgb(12, 12, 77);
+        height: 280px;
+        margin-top: 20px;
+        padding: 0px 70px;
+
+        .footer1{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            align-items: center;
+            padding: 20px 5px;
+            border-bottom: 3px solid rgb(170, 19, 110);
+            i{
+                font-size: 50px;
+            }
+            h1{
+                text-transform: capitalize;
+                font-size: 50px;
+                
+            }
+        
+
+        }
+        .logos{
+
+            color: white;
+            text-align: center;
+            border: none;
+            margin-top: 20px;
+        
+            .h1{
+                
+                font-size: 20px;
+                text-transform: capitalize;
+            }
+            a{
+                color: white;
+                font-size: 50px;
+            }
+        }
+    }
+}
